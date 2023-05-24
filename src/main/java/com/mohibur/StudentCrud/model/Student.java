@@ -13,12 +13,12 @@ public class Student {
 	private String name;
 	private String course;
 	private int fee;
-	
+
 	public Student() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	
+
 	public Student(int id, String name, String course, int fee) {
 		super();
 		this.id = id;
@@ -58,5 +58,5 @@ public class Student {
 	public void setFee(int fee) {
 		this.fee = fee;
 	}
-	
+
 }
